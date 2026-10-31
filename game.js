@@ -575,7 +575,8 @@ function drawTitle() {
     drawText('PRESS START', W / 2, 96, COL.white, 'center', 2);
   drawText('A JUMP (2x)   X HIT   B SHOOT', W / 2, 128, COL.white, 'center');
   drawText('START PAUSE   SELECT MUTE', W / 2, 140, COL.grey, 'center');
-  drawText('P2: PRESS A ON 2ND PAD AT START', W / 2, 158, COL.grey, 'center');
+  drawText('PAD DEAD? CLICK SCREEN ONCE', W / 2, 152, COL.grey, 'center');
+  drawText('P2: PRESS A ON 2ND PAD AT START', W / 2, 164, COL.grey, 'center');
 }
 
 /* ---------------- loop ---------------- */
